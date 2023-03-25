@@ -1,4 +1,4 @@
-# Express-Handlebars Boilerplate <!-- omit in toc -->
+# FullStack Boilerplate <!-- omit in toc -->
 
 This boilerplate may be used as a starting point for building a full-stack app with Handlebars, Express, and Sequelize/MySQL. This boilerplate if configured for easy deployment on Heroku with JawsDB MySQL add-on.
 
@@ -13,7 +13,7 @@ This boilerplate may be used as a starting point for building a full-stack app w
 ## Setup
 
 1. Run `npm i`.
-2. You will need an existing MySQL database.
+2. You will need an existing MySQL database. **mysql -> source db/schema.sql**
 3. Create `.env` file with MySQL credentials for local development and a SECRET. Refer to [.env.EXAMPLE](./.env.EXAMPLE)
 4. Run `npm start` to start the app.
 
@@ -54,8 +54,7 @@ initially create this project by using the template repo.
 The code for this boilerplate is pre-configured to deploy to Heroku and connect to the JAWS DB add-on for MySQL. In order to deploy, you must provision the JAWS DB add-on.
 
 **IMPORTANT:** Payment info. must be provided in order to use the JawsDB MySQL
-add-on. The service is currently free with limitations. (as of 11/2/2021)
-However, you must provide a credit card to use the service.
+add-on. You must provide a credit card to use the service. **With the exception that all of you must be using the student package**
 
 1. Create a Heroku app in the command line. `heroku create <optionally-provide an app name>`
 
